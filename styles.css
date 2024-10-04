@@ -1,0 +1,230 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    /* background-color: #f4f4f4; */
+}
+
+header {
+    height: 128px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background-color: #fff;
+    border-bottom: 1px solid #ddd;
+}
+
+header .logo {
+    display: flex;
+    align-items: center;
+}
+
+header .logo img {
+    height: 40px;
+    margin-right: 10px;
+}
+
+header h1 {
+    font-size: 18px;
+    font-weight: normal;
+}
+
+header .user-info {
+    display: flex;
+    align-items: center;
+}
+
+header .user-info span {
+    margin-right: 10px;
+}
+
+header .user-info {
+    height: 30px;
+    border-radius: 50%;
+}
+
+.icon-width {
+    width: 20px;
+    height: 20px;
+    object-fit: cover;
+}
+
+nav ul {
+    display: flex;
+    justify-content: space-around;
+    margin: 0;
+    border-bottom: 2px solid;
+
+}
+
+nav ul .nav-border {
+    border-right: 1px solid #ddd;
+    text-align: center;
+    width: 100%;
+}
+
+nav ul li {
+    list-style: none;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+
+nav ul li:hover {
+    background-color: #ddd;
+}
+
+.candidatures {
+    margin: 30px;
+    padding: 2px;
+}
+
+.candidatures h2 {
+    margin-bottom: 20px;
+    font-size: 22px;
+    border-left: 2px solid #d9262c;
+    padding-left: 16px;
+}
+
+.offres-similaires h2 {
+    margin-bottom: 20px;
+    font-size: 22px;
+    border-left: 2px solid #d9262c;
+    padding-left: 16px;
+    margin-left: 40px;
+}
+
+main .offres-similaires {
+    height: 520px;
+    padding: 50px;
+    margin: 80px;
+    padding-right: 300px;
+    background-color: #F5F7F9;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 40px;
+}
+
+table th, table td {
+    padding: 15px;
+    border: none;
+    border-bottom: 1px solid #ddd;
+    text-align: left;
+}
+
+table th {
+    font-weight: bold;
+    color: #888;
+    font-size: 13px;
+}
+
+table td.accepted {
+    color: green;
+}
+
+table td.rejected {
+    color: red;
+}
+
+.offres-similaires .offre {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    padding: 20px;
+    margin-bottom: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin-left: 30px;
+}
+
+.offres-similaires .contrat {
+    font-weight: bold;
+    color: #d9262c;
+}
+
+.offres-similaires .location {
+    font-size: 14px;
+    position: relative;
+    padding-left: 25px;
+    background-image: url('./assets/localisation.svg');
+    background-repeat: no-repeat;
+    background-size: 16px 16px;
+    background-position: left center;
+}
+
+footer {
+    padding: 15px 0;
+    margin-top: 20px;
+    background-color: #333;
+}
+
+footer .logo img {
+    height: 40px;
+    margin-right: 10px;
+    padding-left: 20px;
+}
+
+.footer-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 20px;
+    border-bottom: 1px solid #ddd;
+    margin-bottom: -20px;
+    background-color: #F5F7F9;
+}
+
+.footer-content .contact {
+    font-size: 14px;
+}
+
+.footer-content .contact-header {
+    font-weight: bold;
+    color: #888;
+    margin-bottom: 10px;
+}
+
+.footer-content .contact p {
+    margin-bottom: 10px;
+}
+
+.footer-content .contact a {
+    color: black;
+    text-decoration: none;
+}
+
+.footer-content .contact a:hover {
+    text-decoration: underline;
+}
+
+.footer-content .logo-societe-generale img {
+    height: 40px;
+}
+
+.footer-bottom {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 20px;
+}
+
+.footer-bottom .legal {
+    font-size: 14px;
+}
+
+.footer-bottom .legal a {
+    text-decoration: none;
+    color: white;
+}
+
+.footer-bottom .legal a:hover {
+    text-decoration: underline;
+}
+
+.footer-bottom .nos-sites select {
+    padding: 5px;
+    font-size: 14px;
+    background-color: #585858;
+    color: #ddd;
+}

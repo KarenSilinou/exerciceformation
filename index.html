@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercice CSS Stagiaire</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <img src="./assets/logo-societe-generale.png" alt="Société Générale Congo">
+            <h1 style="margin-left: 80px;">PLATEFORME DE TRAITEMENT DES CANDIDATURES</h1>
+        </div>
+        <div class="user-info">
+            <span>Lisa ATHANE</span>
+            <img class="icon-width" src="./assets/logout.svg" alt="User Icon">
+        </div>
+    </header>
+
+    <nav>
+        <ul>
+            <li class="nav-border" style="width: 50px;"><img class="icon-width" src="./assets/home-icon.svg" alt="User Icon"></li>
+            <li class="nav-border">OFFRES DISPONIBLES</li>
+            <li class="nav-border">VOS CANDIDATURES</li>
+            <li class="nav-border">VOTRE CV</li>
+            <li class="nav-border">PARAMETRES</li>
+        </ul>
+    </nav>
+
+    <main>
+        <section class="candidatures">
+            <h2 class="candutures_bar">Vos candidatures</h2>
+            <table>
+                <thead>
+                    <tr>
+                        <th># DE L'OFFRE</th>
+                        <th>INTITULÉ DE L'OFFRE</th>
+                        <th>DATE DE MISE AU LIGNE</th>
+                        <th>STATUT DE LA CANDIDATURE</th>
+                        <th>RETOUR RH</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>3234</td>
+                        <td>Chef de service déploiement</td>
+                        <td>13/08/2018</td>
+                        <td>En cours</td>
+                        <td style="color: blue;">Entretien le 31/08/2018</td>
+                    </tr>
+                    <tr>
+                        <td>3237</td>
+                        <td>Contrôleur de Gestion</td>
+                        <td>14/08/2018</td>
+                        <td>Entretien le 31/08/2018</td>
+                        <td class="rejected">Rejetée</td>
+                    </tr>
+                    <tr>
+                        <td>3237</td>
+                        <td>Conseillère clientèle</td>
+                        <td>09/08/2018</td>
+                        <td>Entretien le 31/08/2018</td>
+                        <td class="accepted">Accepté</td>
+                    </tr>
+                </tbody>
+            </table>
+        </section>
+
+        <section class="offres-similaires">
+            <h2>Offres similaires</h2>
+            <div class="offre">
+                <span class="contrat">CDD</span>
+                <p>International Marketing Project Manager H/F</p>
+                <p class="location">Brazzaville</p>
+            </div>
+            <div class="offre">
+                <span class="contrat">CDI</span>
+                <p>Contrôleur de Gestion Sociale H/F</p>
+                <p class="location">Point-Noire</p>
+            </div>
+            <div class="offre">
+                <span class="contrat">CDD</span>
+                <p>Conseiller Clientèle BtoB, H/F, CDD</p>
+                <p class="location">Point-Noire</p>
+            </div>
+        </section>
+    </main>
+
+    <div class="footer-content">
+        <div class="contact">
+            <p class="contact-header">NOUS CONTACTER</p>
+            <p>Nous appeler : (242) 06 504 22 22</p>
+            <p>Nous écrire : sgc.qualite@socgen.com</p>
+            <p><a href="#">Trouver une agence</a></p>
+        </div>
+    </div>
+    <footer>
+        
+        <div class="logo">
+            <img src="./assets/logo-societe-generale.png" alt="Société Générale">
+        </div>
+        <div class="footer-bottom">
+            <div class="legal">
+                <a href="#">Contact |</a>
+                <a href="#">Mentions légales |</a>
+                <a href="#">Plan du site |</a>
+                <a href="#">Sécurité |</a>
+                <a href="#">Crédits</a>
+            </div>
+            <div class="nos-sites">
+                <select>
+                    <option value="none" disabled selected>Nos sites</option>
+                    <option value="site1">Site 1</option>
+                    <option value="site2">Site 2</option>
+                    <option value="site3">Site 3</option>
+                </select>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
